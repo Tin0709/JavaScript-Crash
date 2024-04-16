@@ -1,0 +1,43 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.btn {
+  border: solid white 5px;
+  width: 350px;
+  height: 100px;
+  background-color: white;
+  border-radius: 36px;
+  box-sizing: border-box;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.btn p {
+  margin: 0 auto;
+  font-size: larger;
+  cursor: none;
+}
+
+.btn:hover {
+  width: 380px;
+  height: 130px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #004d7a;
+  color: white;
+}
